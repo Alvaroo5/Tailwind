@@ -1,0 +1,71 @@
+<div class="flex flex-col items-center justify-center min-h-screen bg-[#d4ecff] dark:bg-gray-900 px-4 shadow-[0_4px_6px_rgba(0,0,0,0.3)] dark:shadow-[0_4px_6px_rgba(255,255,255,0.3)]">
+  <h1 class="text-3xl font-bold bg-[#213253] dark:bg-gray-800 text-[#a7e7a3] dark:text-orange-400 py-3 px-6 rounded-md shadow-lg w-full max-w-xl text-center">
+    REGISTRO
+  </h1>
+
+  <form class="bg-white dark:bg-gray-800 shadow-lg rounded-lg p-6 w-full max-w-2xl mt-6 space-y-4">
+    <!-- Primera columna -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div>
+        <label for="nombre" class="block text-[#464646] dark:text-gray-300 font-semibold">
+          <i class="bi bi-person"></i> NOMBRE
+        </label>
+        <input type="text" id="nombre" placeholder="Ingresa tu nombre" required
+          class="w-full p-2 border border-[#464646] dark:border-gray-600 rounded-md bg-[#d4ecff] dark:bg-gray-700 text-[#464646] dark:text-white">
+      </div>
+
+      <div>
+        <label for="apellidos" class="block text-[#464646] dark:text-gray-300 font-semibold">
+          <i class="bi bi-people"></i> APELLIDOS
+        </label>
+        <input type="text" id="apellidos" placeholder="Ingresa tus apellidos" required
+          class="w-full p-2 border border-[#464646] dark:border-gray-600 rounded-md bg-[#d4ecff] dark:bg-gray-700 text-[#464646] dark:text-white">
+      </div>
+      
+      <div>
+        <label for="telefono" class="block text-[#464646] dark:text-gray-300 font-semibold">
+          <i class="bi bi-telephone"></i> TELÉFONO
+        </label>
+        <input type="tel" id="telefono" placeholder="Ingresa tu teléfono" required
+          class="w-full p-2 border border-[#464646] dark:border-gray-600 rounded-md bg-[#d4ecff] dark:bg-gray-700 text-[#464646] dark:text-white">
+      </div>
+
+      <div>
+        <label for="email" class="block text-[#464646] dark:text-gray-300 font-semibold">
+          <i class="bi bi-envelope"></i> EMAIL
+        </label>
+        <input type="email" id="email" placeholder="Ingresa tu correo electrónico" required
+          class="w-full p-2 border border-[#464646] dark:border-gray-600 rounded-md bg-[#d4ecff] dark:bg-gray-700 text-[#464646] dark:text-white">
+      </div>
+
+      <div>
+        <label for="password" class="block text-[#464646] dark:text-gray-300 font-semibold">
+          <i class="bi bi-lock"></i> PASSWORD
+        </label>
+        <input type="password" id="password" placeholder="Ingresa tu contraseña" required
+          class="w-full p-2 border border-[#464646] dark:border-gray-600 rounded-md bg-[#d4ecff] dark:bg-gray-700 text-[#464646] dark:text-white">
+      </div>
+
+      <div>
+        <label for="password2" class="block text-[#464646] dark:text-gray-300 font-semibold">
+          <i class="bi bi-lock-fill"></i> CONFIRMAR PASSWORD
+        </label>
+        <input type="password" id="password2" placeholder="Confirma tu contraseña" required
+          class="w-full p-2 border border-[#464646] dark:border-gray-600 rounded-md bg-[#d4ecff] dark:bg-gray-700 text-[#464646] dark:text-white">
+      </div>
+
+      <div class="col-span-2">
+        <label for="direccion" class="block text-[#464646] dark:text-gray-300 font-semibold">
+          <i class="bi bi-geo-alt"></i> DIRECCIÓN
+        </label>
+        <input type="text" id="direccion" placeholder="Ingresa tu dirección" required
+          class="w-full p-2 border border-[#464646] dark:border-gray-600 rounded-md bg-[#d4ecff] dark:bg-gray-700 text-[#464646] dark:text-white">
+      </div>
+    </div>
+
+    <!-- Botón de envío -->
+    <button type="submit" class="w-full bg-[#14a964] dark:bg-green-900 text-white py-2 rounded-md hover:bg-green-700 dark:hover:bg-green-800 transition">
+      <i class="bi bi-send"></i> ENVIAR
+    </button>
+  </form>
+</div>

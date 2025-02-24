@@ -1,0 +1,55 @@
+<div class="container mx-auto p-6 bg-[#d4ecff] dark:bg-gray-900 min-h-screen flex flex-col items-center shadow-[0_4px_6px_rgba(0,0,0,0.3)] dark:shadow-[0_4px_6px_rgba(255,255,255,0.3)]">
+  <!-- Título sin sombra -->
+  <h1 class="text-3xl font-bold text-center bg-[#213253] dark:bg-gray-800 text-[#a7e7a3] dark:text-orange-400 py-3 rounded-md w-full max-w-xl">
+    TENDENCIAS
+  </h1>
+
+  <!-- Selector de Supermercado -->
+  <div class="my-6 w-full max-w-md mx-auto">
+    <label for="supermarket-select" class="block text-lg font-medium text-[#464646] dark:text-white">
+      Seleccionar Supermercado
+    </label>
+    <select id="supermarket-select" class="mt-1 block w-full p-3 border-[#464646] dark:border-gray-600 rounded-lg shadow-sm focus:ring-[#213253] dark:focus:ring-orange-400 focus:border-[#213253] bg-[#a7e7a3] dark:bg-gray-800 text-[#213253] dark:text-white">
+      <option value="mercadona">Mercadona</option>
+      <option value="carrefour">Carrefour</option>
+      <option value="aldi">Aldi</option>
+      <option value="lidl">Lidl</option>
+      <option value="hipercor">Hipercor</option>
+    </select>
+  </div>
+
+  <!-- Productos -->
+  <div class="grid grid-cols-3 gap-4">
+    <div class="product-card bg-white dark:bg-gray-800 p-3 rounded-lg shadow-md flex flex-col items-center justify-center">
+      <img src="assets/pizza.jpg" alt="Pizza" class="w-36 h-36 rounded-md">
+      <p class="product-name mt-2 font-bold text-[#464646] dark:text-white">Pizza</p>
+    </div>
+
+    <div class="product-card bg-white dark:bg-gray-800 p-3 rounded-lg shadow-md flex flex-col items-center justify-center">
+      <img src="assets/cruzcampo.jpg" alt="Cruzcampo" class="w-36 h-36 rounded-md">
+      <p class="product-name mt-2 font-bold text-[#464646] dark:text-white">Cruzcampo</p>
+    </div>
+
+    <div class="product-card bg-white dark:bg-gray-800 p-3 rounded-lg shadow-md flex flex-col items-center justify-center">
+      <img src="assets/chocolate.jpg" alt="Chocolate" class="w-36 h-36 rounded-md">
+      <p class="product-name mt-2 font-bold text-[#464646] dark:text-white">Chocolate</p>
+    </div>
+  </div>
+
+  <div class="grid grid-cols-3 gap-4 mt-4">
+    <div class="product-card bg-white dark:bg-gray-800 p-3 rounded-lg shadow-md flex flex-col items-center justify-center">
+      <img src="assets/champu.jpg" alt="Champu" class="w-36 h-36 rounded-md">
+      <p class="product-name mt-2 font-bold text-[#464646] dark:text-white">Champú</p>
+    </div>
+
+    <div class="product-card bg-white dark:bg-gray-800 p-3 rounded-lg shadow-md flex flex-col items-center justify-center">
+      <img src="assets/helado.jpg" alt="Helado" class="w-36 h-36 rounded-md">
+      <p class="product-name mt-2 font-bold text-[#464646] dark:text-white">Helado</p>
+    </div>
+
+    <div class="product-card bg-white dark:bg-gray-800 p-3 rounded-lg shadow-md flex flex-col items-center justify-center">
+      <img src="assets/langostino.jpg" alt="Langostino" class="w-36 h-36 rounded-md">
+      <p class="product-name mt-2 font-bold text-[#464646] dark:text-white">Langostino</p>
+    </div>
+  </div>
+</div>
